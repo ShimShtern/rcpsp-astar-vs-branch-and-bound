@@ -1,0 +1,81 @@
+% Requires \usepackage{booktabs} in the document preamble.
+\begin{table*}[t]
+  \centering
+  \caption{Computational summary on the 365 PSPLIB J30 instances for which
+  every method proved optimality. Values in brackets are interquartile ranges.}
+  \label{tab:astar-bb-computational-summary}
+  \small
+  \setlength{\tabcolsep}{3pt}
+  \begin{tabular}{@{}lllrrrrr@{}}
+    \toprule
+    Method &
+    Search &
+    \shortstack{LP\\relaxation} &
+    \shortstack{Wall time (s)\\median\\{[IQR]}} &
+    \shortstack{Expanded\\median\\{[IQR]}} &
+    \shortstack{Generated\\median\\{[IQR]}} &
+    \shortstack{Max. frontier\\median\\{[IQR]}} &
+    \shortstack{Peak RSS (MiB)\\median\\{[IQR]}} \\
+    \midrule
+    A$^*$
+      & --
+      & --
+      & \shortstack[r]{0.074\\{[0.026--0.300]}}
+      & \shortstack[r]{1,147\\{[465--3,967]}}
+      & \shortstack[r]{2,353\\{[922--8,076]}}
+      & \shortstack[r]{1,111\\{[463--4,070]}}
+      & \shortstack[r]{24.7\\{[23.8--28.2]}} \\
+    B\&B
+      & BF
+      & No
+      & \shortstack[r]{0.111\\{[0.033--0.560]}}
+      & \shortstack[r]{1,330\\{[472--6,622]}}
+      & \shortstack[r]{2,982\\{[986--13,263]}}
+      & \shortstack[r]{1,548\\{[498--6,493]}}
+      & \shortstack[r]{23.8\\{[23.4--26.0]}} \\
+      & BF
+      & Weak
+      & \shortstack[r]{6.831\\{[2.742--28.366]}}
+      & \shortstack[r]{1,147\\{[430--4,742]}}
+      & \shortstack[r]{2,526\\{[887--11,158]}}
+      & \shortstack[r]{1,315\\{[477--5,418]}}
+      & \shortstack[r]{53.7\\{[49.7--62.0]}} \\
+      & BF
+      & Strong
+      & \shortstack[r]{8.963\\{[2.413--79.996]}}
+      & \shortstack[r]{69\\{[0--951]}}
+      & \shortstack[r]{207\\{[1--2,445]}}
+      & \shortstack[r]{81\\{[1--672]}}
+      & \shortstack[r]{270.8\\{[231.4--312.8]}} \\
+      & DF
+      & No
+      & \shortstack[r]{0.433\\{[0.118--2.215]}}
+      & \shortstack[r]{6,042\\{[1,985--29,354]}}
+      & \shortstack[r]{7,476\\{[2,262--40,583]}}
+      & \shortstack[r]{63\\{[51--76]}}
+      & \shortstack[r]{22.9\\{[22.7--23.0]}} \\
+      & DF
+      & Weak
+      & \shortstack[r]{11.570\\{[4.554--59.114]}}
+      & \shortstack[r]{5,295\\{[1,748--19,337]}}
+      & \shortstack[r]{6,741\\{[1,905--31,502]}}
+      & \shortstack[r]{64\\{[51--79]}}
+      & \shortstack[r]{52.4\\{[49.0--60.1]}} \\
+      & DF
+      & Strong
+      & \shortstack[r]{11.727\\{[2.385--86.468]}}
+      & \shortstack[r]{224\\{[0--1,905]}}
+      & \shortstack[r]{420\\{[1--3,808]}}
+      & \shortstack[r]{32\\{[1--58]}}
+      & \shortstack[r]{271.0\\{[230.5--314.6]}} \\
+    \bottomrule
+  \end{tabular}
+
+  \vspace{2pt}
+  \parbox{0.98\textwidth}{\footnotesize
+    Every column uses the same common subset of 365 instances. Wall time
+    includes LP overhead and measures time until optimality was proven.
+    Max. frontier is the largest candidate-node list observed during a run.
+    BF denotes global best-first search; DF denotes depth-first search with
+    local best-lower-bound child ordering.}
+\end{table*}

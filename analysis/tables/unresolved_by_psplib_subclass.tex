@@ -1,0 +1,56 @@
+% Requires \usepackage{booktabs} and \usepackage{graphicx}.
+\begin{table*}[t]
+  \centering
+  \caption{Instances for which optimality was not proven, partitioned by
+  PSPLIB parameter subclass. Each $(NC,RF,RS)$ subclass contains ten
+  instances, so every entry is a count out of ten. Subclasses omitted from
+  the table have zero unresolved instances for every method.}
+  \label{tab:unresolved-by-psplib-subclass}
+  \scriptsize
+  \setlength{\tabcolsep}{3.5pt}
+  \renewcommand{\arraystretch}{0.92}
+  \resizebox{0.88\textwidth}{!}{%
+  \begin{tabular}{@{}rrr r rrr rrr@{}}
+    \toprule
+    & & & & \multicolumn{3}{c}{Best-first B\&B}
+          & \multicolumn{3}{c}{Depth-first B\&B} \\
+    \cmidrule(lr){5-7}\cmidrule(l){8-10}
+    $RS$ & $RF$ & $NC$ & A$^*$
+      & No LP & Weak LP & Strong LP
+      & No LP & Weak LP & Strong LP \\
+    \midrule
+    0.25 & 0.25 & 1.5 & 0 &  0 &  0 &  0 &  0 &  0 &  1 \\
+    0.25 & 0.25 & 1.8 & 0 &  0 &  0 &  1 &  0 &  0 &  1 \\
+    0.25 & 0.50 & 1.5 & 0 &  1 &  9 &  9 &  1 &  8 &  9 \\
+    0.25 & 0.50 & 1.8 & 0 &  0 &  5 &  9 &  0 &  3 &  7 \\
+    0.25 & 0.50 & 2.1 & 0 &  0 &  4 &  6 &  0 &  4 &  6 \\
+    0.25 & 0.75 & 1.5 & 0 &  5 & 10 & 10 &  6 & 10 & 10 \\
+    0.25 & 0.75 & 1.8 & 0 &  5 & 10 & 10 &  5 & 10 & 10 \\
+    0.25 & 0.75 & 2.1 & 0 &  2 & 10 & 10 &  3 & 10 & 10 \\
+    0.25 & 1.00 & 1.5 & 0 &  9 & 10 & 10 & 10 & 10 & 10 \\
+    0.25 & 1.00 & 1.8 & 0 &  9 & 10 & 10 &  9 & 10 & 10 \\
+    0.25 & 1.00 & 2.1 & 0 &  4 & 10 & 10 &  4 & 10 & 10 \\
+    \addlinespace
+    0.50 & 0.50 & 1.8 & 0 &  0 &  1 &  1 &  0 &  0 &  1 \\
+    0.50 & 0.75 & 1.5 & 0 &  0 &  4 &  4 &  1 &  4 &  3 \\
+    0.50 & 0.75 & 1.8 & 0 &  0 &  0 &  0 &  0 &  1 &  1 \\
+    0.50 & 0.75 & 2.1 & 0 &  0 &  1 &  1 &  0 &  0 &  1 \\
+    0.50 & 1.00 & 1.5 & 0 &  0 &  5 &  6 &  1 &  6 &  6 \\
+    0.50 & 1.00 & 1.8 & 0 &  0 &  5 &  5 &  0 &  3 &  4 \\
+    0.50 & 1.00 & 2.1 & 0 &  0 &  3 &  4 &  0 &  1 &  4 \\
+    \addlinespace
+    0.75 & 0.75 & 1.5 & 0 &  0 &  0 &  0 &  0 &  0 &  1 \\
+    0.75 & 1.00 & 1.5 & 0 &  0 &  2 &  2 &  0 &  2 &  2 \\
+    0.75 & 1.00 & 1.8 & 0 &  0 &  1 &  1 &  0 &  0 &  2 \\
+    \bottomrule
+  \end{tabular}%
+  }
+
+  %\vspace{2pt}
+  %\parbox{0.98\textwidth}{\footnotesize
+  %  BF denotes global best-first search. DF denotes depth-first search with
+  %  local best-lower-bound child ordering. Weak and Strong identify the LP
+  %  precedence formulations. ``Unresolved'' means that the method did not
+  %  prove optimality within the two-hour limit; it does not imply that no
+  %  feasible incumbent was found.}
+\end{table*}

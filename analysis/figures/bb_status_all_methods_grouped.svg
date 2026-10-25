@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="680" viewBox="0 70 1300 680" role="img" aria-labelledby="title desc">
+  <title id="title">A* and B&amp;B outcome counts</title>
+  <desc id="desc">One grouped bar chart with status on the x-axis and seven bars per status. Color identifies A-star, best-first branch-and-bound, and depth-first best-lower-bound branch-and-bound. Solid, diagonally hatched, and dotted fills identify no LP, weak LP, and strong LP.</desc>
+  <rect width="1300" height="750" fill="#ffffff"/>
+  <defs>
+    <pattern id="bf-weak" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="9" height="9" fill="#0072B2"/><line x1="0" y1="0" x2="0" y2="9" stroke="#ffffff" stroke-width="3" stroke-opacity="0.78"/>
+    </pattern>
+    <pattern id="bf-strong" width="9" height="9" patternUnits="userSpaceOnUse">
+      <rect width="9" height="9" fill="#0072B2"/><circle cx="4.5" cy="4.5" r="1.8" fill="#ffffff" fill-opacity="0.9"/>
+    </pattern>
+    <pattern id="df-weak" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="9" height="9" fill="#009E73"/><line x1="0" y1="0" x2="0" y2="9" stroke="#ffffff" stroke-width="3" stroke-opacity="0.78"/>
+    </pattern>
+    <pattern id="df-strong" width="9" height="9" patternUnits="userSpaceOnUse">
+      <rect width="9" height="9" fill="#009E73"/><circle cx="4.5" cy="4.5" r="1.8" fill="#ffffff" fill-opacity="0.9"/>
+    </pattern>
+    <pattern id="legend-weak" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="9" height="9" fill="#666666"/><line x1="0" y1="0" x2="0" y2="9" stroke="#ffffff" stroke-width="3" stroke-opacity="0.78"/>
+    </pattern>
+    <pattern id="legend-strong" width="9" height="9" patternUnits="userSpaceOnUse">
+      <rect width="9" height="9" fill="#666666"/><circle cx="4.5" cy="4.5" r="1.8" fill="#ffffff" fill-opacity="0.9"/>
+    </pattern>
+  </defs>
+
+  <g stroke="#dfe3e8" stroke-width="1">
+    <line x1="95" y1="550.0" x2="1225" y2="550.0"/>
+    <line x1="95" y1="460.4" x2="1225" y2="460.4"/>
+    <line x1="95" y1="370.8" x2="1225" y2="370.8"/>
+    <line x1="95" y1="281.2" x2="1225" y2="281.2"/>
+    <line x1="95" y1="191.7" x2="1225" y2="191.7"/>
+    <line x1="95" y1="120.0" x2="1225" y2="120.0"/>
+  </g>
+  <g font-family="Times New Roman, Times, serif" font-size="17" fill="#5f6368" text-anchor="end">
+    <text x="86" y="555.0">0</text>
+    <text x="86" y="465.4">100</text>
+    <text x="86" y="375.8">200</text>
+    <text x="86" y="286.2">300</text>
+    <text x="86" y="196.7">400</text>
+    <text x="86" y="125.0">480</text>
+  </g>
+  <line x1="95" y1="120" x2="95" y2="550" stroke="#7b8187" stroke-width="1.2"/>
+  <line x1="95" y1="550" x2="1225" y2="550" stroke="#7b8187" stroke-width="1.2"/>
+  <text x="25" y="335" transform="rotate(-90 25 335)" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="20" fill="#303134">Number of instances</text>
+
+  <!-- optimal: A* = 480, Best-first / No LP = 445, Best-first / Weak LP = 380, Best-first / Strong LP = 371, Depth-first / No LP = 440, Depth-first / Weak LP = 388, Depth-first / Strong LP = 371 -->
+  <rect x="105" y="120.0" width="27" height="430.0" fill="#D55E00"/>
+  <rect x="150" y="151.4" width="27" height="398.6" fill="#0072B2"/>
+  <rect x="182" y="209.6" width="27" height="340.4" fill="url(#bf-weak)"/>
+  <rect x="214" y="217.6" width="27" height="332.4" fill="url(#bf-strong)"/>
+  <rect x="259" y="155.8" width="27" height="394.2" fill="#009E73"/>
+  <rect x="291" y="202.4" width="27" height="347.6" fill="url(#df-weak)"/>
+  <rect x="323" y="217.6" width="27" height="332.4" fill="url(#df-strong)"/>
+
+  <!-- known_found: A* = 0, Best-first / No LP = 0, Best-first / Weak LP = 0, Best-first / Strong LP = 6, Depth-first / No LP = 13, Depth-first / Weak LP = 19, Depth-first / Strong LP = 19 -->
+  <rect x="395" y="550.0" width="27" height="0.0" fill="#D55E00"/>
+  <rect x="440" y="550.0" width="27" height="0.0" fill="#0072B2"/>
+  <rect x="472" y="550.0" width="27" height="0.0" fill="url(#bf-weak)"/>
+  <rect x="504" y="544.6" width="27" height="5.4" fill="url(#bf-strong)"/>
+  <rect x="549" y="538.4" width="27" height="11.6" fill="#009E73"/>
+  <rect x="581" y="533.0" width="27" height="17.0" fill="url(#df-weak)"/>
+  <rect x="613" y="533.0" width="27" height="17.0" fill="url(#df-strong)"/>
+
+  <!-- suboptimal: A* = 0, Best-first / No LP = 0, Best-first / Weak LP = 0, Best-first / Strong LP = 8, Depth-first / No LP = 21, Depth-first / Weak LP = 54, Depth-first / Strong LP = 74 -->
+  <rect x="685" y="550.0" width="27" height="0.0" fill="#D55E00"/>
+  <rect x="730" y="550.0" width="27" height="0.0" fill="#0072B2"/>
+  <rect x="762" y="550.0" width="27" height="0.0" fill="url(#bf-weak)"/>
+  <rect x="794" y="542.8" width="27" height="7.2" fill="url(#bf-strong)"/>
+  <rect x="839" y="531.2" width="27" height="18.8" fill="#009E73"/>
+  <rect x="871" y="501.6" width="27" height="48.4" fill="url(#df-weak)"/>
+  <rect x="903" y="483.7" width="27" height="66.3" fill="url(#df-strong)"/>
+
+  <!-- no_incumbent: A* = 0, Best-first / No LP = 35, Best-first / Weak LP = 100, Best-first / Strong LP = 95, Depth-first / No LP = 6, Depth-first / Weak LP = 19, Depth-first / Strong LP = 16 -->
+  <rect x="975" y="550.0" width="27" height="0.0" fill="#D55E00"/>
+  <rect x="1020" y="518.6" width="27" height="31.4" fill="#0072B2"/>
+  <rect x="1052" y="460.4" width="27" height="89.6" fill="url(#bf-weak)"/>
+  <rect x="1084" y="464.9" width="27" height="85.1" fill="url(#bf-strong)"/>
+  <rect x="1129" y="544.6" width="27" height="5.4" fill="#009E73"/>
+  <rect x="1161" y="533.0" width="27" height="17.0" fill="url(#df-weak)"/>
+  <rect x="1193" y="535.7" width="27" height="14.3" fill="url(#df-strong)"/>
+
+  <g text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="15" font-weight="700" fill="#303134">
+    <text x="118.5" y="110">480</text>
+    <text x="163.5" y="141">445</text>
+    <text x="195.5" y="200">380</text>
+    <text x="227.5" y="208">371</text>
+    <text x="272.5" y="146">440</text>
+    <text x="304.5" y="192">388</text>
+    <text x="336.5" y="208">371</text>
+    <text x="408.5" y="538">0</text>
+    <text x="453.5" y="538">0</text>
+    <text x="485.5" y="538">0</text>
+    <text x="517.5" y="535">6</text>
+    <text x="562.5" y="528">13</text>
+    <text x="594.5" y="523">19</text>
+    <text x="626.5" y="523">19</text>
+    <text x="698.5" y="538">0</text>
+    <text x="743.5" y="538">0</text>
+    <text x="775.5" y="538">0</text>
+    <text x="807.5" y="533">8</text>
+    <text x="852.5" y="521">21</text>
+    <text x="884.5" y="492">54</text>
+    <text x="916.5" y="474">74</text>
+    <text x="988.5" y="538">0</text>
+    <text x="1033.5" y="509">35</text>
+    <text x="1065.5" y="450">100</text>
+    <text x="1097.5" y="455">95</text>
+    <text x="1142.5" y="535">6</text>
+    <text x="1174.5" y="523">19</text>
+    <text x="1206.5" y="526">16</text>
+  </g>
+  <g text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#6a7076">
+    <text x="118.5" y="571">A*</text><text x="195.5" y="571">Best-first</text><text x="304.5" y="571">Depth-first</text>
+    <text x="408.5" y="571">A*</text><text x="485.5" y="571">Best-first</text><text x="594.5" y="571">Depth-first</text>
+    <text x="698.5" y="571">A*</text><text x="775.5" y="571">Best-first</text><text x="884.5" y="571">Depth-first</text>
+    <text x="988.5" y="571">A*</text><text x="1065.5" y="571">Best-first</text><text x="1174.5" y="571">Depth-first</text>
+  </g>
+  <g text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="17" font-weight="600" fill="#303134">
+    <text x="227.5" y="600">Proven optimal</text>
+    <text x="517.5" y="596">Known optimum found,</text><text x="517.5" y="616">not proven</text>
+    <text x="807.5" y="596">Suboptimal incumbent</text><text x="807.5" y="616">at time limit</text>
+    <text x="1097.5" y="596">Initial horizon bound</text><text x="1097.5" y="616">only at time limit</text>
+  </g>
+
+  <text x="155" y="666" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="17" font-weight="700" fill="#303134">Method:</text>
+  <g font-family="Times New Roman, Times, serif" font-size="17" fill="#303134">
+    <rect x="170" y="651" width="22" height="22" rx="2" fill="#D55E00"/><text x="201" y="668">A*</text>
+    <rect x="380" y="651" width="22" height="22" rx="2" fill="#0072B2"/><text x="411" y="668">BF B&amp;B</text>
+    <rect x="580" y="651" width="22" height="22" rx="2" fill="#009E73"/><text x="611" y="668">DF B&amp;B</text>
+  </g>
+  <text x="155" y="706" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="17" font-weight="700" fill="#303134">LP:</text>
+  <g font-family="Times New Roman, Times, serif" font-size="17" fill="#303134">
+    <rect x="170" y="689" width="22" height="22" rx="2" fill="#666666"/><text x="201" y="707">No LP</text>
+    <rect x="350" y="689" width="22" height="22" rx="2" fill="url(#legend-weak)"/><text x="381" y="707">Weak LP</text>
+    <rect x="560" y="689" width="22" height="22" rx="2" fill="url(#legend-strong)"/><text x="591" y="707">Strong LP</text>
+  </g>
+</svg>

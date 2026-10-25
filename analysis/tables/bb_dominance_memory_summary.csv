@@ -1,0 +1,7 @@
+search,configuration,instances,optimal,time_limit,time_limit_feasible,memory_limit,max_open_min,max_open_q1,max_open_median,max_open_q3,max_open_max,within_max_open_1000,within_max_open_10000,within_max_open_100000,within_max_open_1000000,within_max_open_10000000,within_max_open_100000000,result_file
+A*,CP,480,476,4,0,,71,338.000,17276.000,180723.000,16948683,155,219,337,420,475,480,Results/astar/non_dominance/no_explicit_memory_limit/j30_astar_120min.csv
+A*,CP + Lexicographic,480,479,1,0,0,78,398.500,5783.000,78285.500,15372693,164,264,373,444,478,480,Results/astar/same_start_dominance/memory_limit_64GiB/j30_astar_120min.csv
+A*,CP + Lexicographic + Active schedules,480,480,0,0,0,95,628.500,2262.500,16983.750,6369540,174,331,426,465,480,480,Results/astar/same_start_dominance/exact_active_schedule/memory_limit_64GiB/j30_astar_120min.csv
+Best-first B&B,CP,480,249,1,0,230,71,1806.750,83292533.500,160423351.500,171360776,113,138,163,187,211,242,Results/bb/parent_linked/non_dominance/duplicate_tracking/memory_limit_64GiB/j30_bb_120min.csv
+Best-first B&B,CP + Lexicographic,480,387,11,0,82,78,565.250,78867.500,20948430.000,168987119,138,196,243,291,343,382,Results/bb/parent_linked/same_start_dominance/no_duplicate_tracking/memory_limit_64GiB/j30_bb_120min.csv
+Best-first B&B,CP + Lexicographic + Active schedules,480,445,35,0,0,95,724.750,3167.000,114708.000,149692052,152,289,356,398,427,450,Results/bb/parent_linked/same_start_dominance/active_schedule/no_duplicate_tracking/memory_limit_64GiB/j30_bb_best_first_dominance_120min_all.csv

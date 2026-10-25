@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1340" height="620" viewBox="0 0 1340 620" role="img" aria-labelledby="title desc">
+<title id="title">Memory-limit counts by search and pruning configuration</title>
+<desc id="desc">Memory-limit exits for the same A-star and best-first branch-and-bound configurations used in the dominance cactus plot. The A-star critical-path-only run had no explicit memory limit and is marked not available.</desc>
+<rect width="1340" height="620" fill="#ffffff"/>
+<line x1="105.0" y1="430.00" x2="1260.0" y2="430.00" stroke="#dfe3e8" stroke-width="1"/>
+<text x="92" y="436.00" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="16" fill="#5f6368">0</text>
+<line x1="105.0" y1="349.00" x2="1260.0" y2="349.00" stroke="#dfe3e8" stroke-width="1"/>
+<text x="92" y="355.00" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="16" fill="#5f6368">50</text>
+<line x1="105.0" y1="268.00" x2="1260.0" y2="268.00" stroke="#dfe3e8" stroke-width="1"/>
+<text x="92" y="274.00" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="16" fill="#5f6368">100</text>
+<line x1="105.0" y1="187.00" x2="1260.0" y2="187.00" stroke="#dfe3e8" stroke-width="1"/>
+<text x="92" y="193.00" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="16" fill="#5f6368">150</text>
+<line x1="105.0" y1="106.00" x2="1260.0" y2="106.00" stroke="#dfe3e8" stroke-width="1"/>
+<text x="92" y="112.00" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="16" fill="#5f6368">200</text>
+<line x1="105.0" y1="25.00" x2="1260.0" y2="25.00" stroke="#dfe3e8" stroke-width="1"/>
+<text x="92" y="31.00" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="16" fill="#5f6368">250</text>
+<line x1="105.0" y1="25.0" x2="105.0" y2="430.0" stroke="#7b8187" stroke-width="1.5"/>
+<line x1="105.0" y1="430.0" x2="1260.0" y2="430.0" stroke="#7b8187" stroke-width="1.5"/>
+<rect x="175.5" y="396.0" width="105.0" height="34" fill="#ffffff" stroke="#D55E00" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="228.0" y="419.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="16" font-weight="700" fill="#303134">N/A</text>
+<rect x="299.5" y="57.40" width="105.0" height="372.60" fill="#0072B2" stroke="#303134" stroke-width="1.2"/>
+<text x="352.0" y="47.40" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="18" font-weight="700" fill="#303134">230</text>
+<rect x="565.5" y="430.00" width="105.0" height="0.00" fill="#D55E00" stroke="#303134" stroke-width="1.2"/>
+<text x="618.0" y="420.00" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="18" font-weight="700" fill="#303134">0</text>
+<rect x="689.5" y="297.16" width="105.0" height="132.84" fill="#0072B2" stroke="#303134" stroke-width="1.2"/>
+<text x="742.0" y="287.16" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="18" font-weight="700" fill="#303134">82</text>
+<rect x="955.5" y="430.00" width="105.0" height="0.00" fill="#D55E00" stroke="#303134" stroke-width="1.2"/>
+<text x="1008.0" y="420.00" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="18" font-weight="700" fill="#303134">0</text>
+<rect x="1079.5" y="430.00" width="105.0" height="0.00" fill="#0072B2" stroke="#303134" stroke-width="1.2"/>
+<text x="1132.0" y="420.00" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="18" font-weight="700" fill="#303134">0</text>
+<text x="290.0" y="468" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="16" fill="#303134">CP</text>
+<text x="680.0" y="468" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="16" fill="#303134">CP + Lexicographic</text>
+<text x="1070.0" y="468" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="16" fill="#303134">CP + Lexicographic +</text>
+<text x="1070.0" y="490" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="16" fill="#303134">Active schedules</text>
+<text x="485" y="555" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="16" font-weight="700" fill="#303134">Search:</text>
+<line x1="510.0" y1="550" x2="548.0" y2="550" stroke="#D55E00" stroke-width="10"/>
+<text x="557.0" y="555" font-family="Times New Roman, Times, serif" font-size="15" fill="#303134">A*</text>
+<line x1="690.0" y1="550" x2="728.0" y2="550" stroke="#0072B2" stroke-width="10"/>
+<text x="737.0" y="555" font-family="Times New Roman, Times, serif" font-size="15" fill="#303134">Best-first B&amp;B</text>
+<text x="26" y="228" transform="rotate(-90 26 228)" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="18" fill="#303134">Runs reaching the 64 GiB memory limit</text>
+</svg>

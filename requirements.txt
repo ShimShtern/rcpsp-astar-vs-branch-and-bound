@@ -1,0 +1,2 @@
+# Needed only for the LP relaxation bound (--relaxation-bound); requires a Gurobi license.
+gurobipy==13.0.3

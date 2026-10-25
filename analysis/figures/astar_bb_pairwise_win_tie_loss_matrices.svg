@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1130" height="335" viewBox="0 0 1130 335" role="img" aria-labelledby="title desc">
+<title id="title">Pairwise B&amp;B bound comparisons</title>
+<desc id="desc">Pairwise upper- and lower-bound matrices. Each cell gives the number of instances on which the row method has a better bound than the column method.</desc>
+<rect width="1130" height="335" fill="#ffffff"/>
+<text x="20.0" y="22.0" font-family="Times New Roman, Times, serif" font-size="20" font-weight="700" fill="#202124">Upper bound</text>
+<text x="149.0" y="44.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="11" fill="#303134">BF No LP</text>
+<text x="219.0" y="44.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="11" fill="#303134">BF Weak LP</text>
+<text x="289.0" y="44.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="11" fill="#303134">BF Strong LP</text>
+<text x="359.0" y="44.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="11" fill="#303134">DF No LP</text>
+<text x="429.0" y="44.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="11" fill="#303134">DF Weak LP</text>
+<text x="499.0" y="44.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="11" fill="#303134">DF Strong LP</text>
+<text x="104.0" y="86.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12" fill="#303134">BF No LP</text>
+<rect x="114.0" y="60.0" width="70.0" height="43.0" fill="#f1f3f4" stroke="#c8ccd0" stroke-width="1"/>
+<text x="149.0" y="86.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="400" fill="#202124">—</text>
+<rect x="184.0" y="60.0" width="70.0" height="43.0" fill="#c1dcec" stroke="#c8ccd0" stroke-width="1"/>
+<text x="219.0" y="86.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">65</text>
+<rect x="254.0" y="60.0" width="70.0" height="43.0" fill="#bfdcec" stroke="#c8ccd0" stroke-width="1"/>
+<text x="289.0" y="86.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">68</text>
+<rect x="324.0" y="60.0" width="70.0" height="43.0" fill="#d7e9f3" stroke="#c8ccd0" stroke-width="1"/>
+<text x="359.0" y="86.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">4</text>
+<rect x="394.0" y="60.0" width="70.0" height="43.0" fill="#cbe2ef" stroke="#c8ccd0" stroke-width="1"/>
+<text x="429.0" y="86.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">38</text>
+<rect x="464.0" y="60.0" width="70.0" height="43.0" fill="#c4dfed" stroke="#c8ccd0" stroke-width="1"/>
+<text x="499.0" y="86.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">55</text>
+<text x="104.0" y="129.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12" fill="#303134">BF Weak LP</text>
+<rect x="114.0" y="103.0" width="70.0" height="43.0" fill="#ffffff" stroke="#c8ccd0" stroke-width="1"/>
+<text x="149.0" y="129.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">0</text>
+<rect x="184.0" y="103.0" width="70.0" height="43.0" fill="#f1f3f4" stroke="#c8ccd0" stroke-width="1"/>
+<text x="219.0" y="129.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="400" fill="#202124">—</text>
+<rect x="254.0" y="103.0" width="70.0" height="43.0" fill="#d6e8f3" stroke="#c8ccd0" stroke-width="1"/>
+<text x="289.0" y="129.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">8</text>
+<rect x="324.0" y="103.0" width="70.0" height="43.0" fill="#ffffff" stroke="#c8ccd0" stroke-width="1"/>
+<text x="359.0" y="129.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">0</text>
+<rect x="394.0" y="103.0" width="70.0" height="43.0" fill="#d8e9f3" stroke="#c8ccd0" stroke-width="1"/>
+<text x="429.0" y="129.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">3</text>
+<rect x="464.0" y="103.0" width="70.0" height="43.0" fill="#d7e9f3" stroke="#c8ccd0" stroke-width="1"/>
+<text x="499.0" y="129.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">5</text>
+<text x="104.0" y="172.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12" fill="#303134">BF Strong LP</text>
+<rect x="114.0" y="146.0" width="70.0" height="43.0" fill="#ffffff" stroke="#c8ccd0" stroke-width="1"/>
+<text x="149.0" y="172.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">0</text>
+<rect x="184.0" y="146.0" width="70.0" height="43.0" fill="#d5e8f2" stroke="#c8ccd0" stroke-width="1"/>
+<text x="219.0" y="172.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">11</text>
+<rect x="254.0" y="146.0" width="70.0" height="43.0" fill="#f1f3f4" stroke="#c8ccd0" stroke-width="1"/>
+<text x="289.0" y="172.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="400" fill="#202124">—</text>
+<rect x="324.0" y="146.0" width="70.0" height="43.0" fill="#d8e9f3" stroke="#c8ccd0" stroke-width="1"/>
+<text x="359.0" y="172.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">2</text>
+<rect x="394.0" y="146.0" width="70.0" height="43.0" fill="#d7e9f3" stroke="#c8ccd0" stroke-width="1"/>
+<text x="429.0" y="172.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">4</text>
+<rect x="464.0" y="146.0" width="70.0" height="43.0" fill="#d7e9f3" stroke="#c8ccd0" stroke-width="1"/>
+<text x="499.0" y="172.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">6</text>
+<text x="104.0" y="215.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12" fill="#303134">DF No LP</text>
+<rect x="114.0" y="189.0" width="70.0" height="43.0" fill="#cde3f0" stroke="#c8ccd0" stroke-width="1"/>
+<text x="149.0" y="215.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">31</text>
+<rect x="184.0" y="189.0" width="70.0" height="43.0" fill="#b6d7e9" stroke="#c8ccd0" stroke-width="1"/>
+<text x="219.0" y="215.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">94</text>
+<rect x="254.0" y="189.0" width="70.0" height="43.0" fill="#b5d6e9" stroke="#c8ccd0" stroke-width="1"/>
+<text x="289.0" y="215.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">96</text>
+<rect x="324.0" y="189.0" width="70.0" height="43.0" fill="#f1f3f4" stroke="#c8ccd0" stroke-width="1"/>
+<text x="359.0" y="215.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="400" fill="#202124">—</text>
+<rect x="394.0" y="189.0" width="70.0" height="43.0" fill="#c0dcec" stroke="#c8ccd0" stroke-width="1"/>
+<text x="429.0" y="215.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">66</text>
+<rect x="464.0" y="189.0" width="70.0" height="43.0" fill="#bad9ea" stroke="#c8ccd0" stroke-width="1"/>
+<text x="499.0" y="215.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">82</text>
+<text x="104.0" y="258.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12" fill="#303134">DF Weak LP</text>
+<rect x="114.0" y="232.0" width="70.0" height="43.0" fill="#cfe5f1" stroke="#c8ccd0" stroke-width="1"/>
+<text x="149.0" y="258.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">25</text>
+<rect x="184.0" y="232.0" width="70.0" height="43.0" fill="#bad9ea" stroke="#c8ccd0" stroke-width="1"/>
+<text x="219.0" y="258.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">84</text>
+<rect x="254.0" y="232.0" width="70.0" height="43.0" fill="#bad9ea" stroke="#c8ccd0" stroke-width="1"/>
+<text x="289.0" y="258.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">84</text>
+<rect x="324.0" y="232.0" width="70.0" height="43.0" fill="#d7e9f3" stroke="#c8ccd0" stroke-width="1"/>
+<text x="359.0" y="258.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">4</text>
+<rect x="394.0" y="232.0" width="70.0" height="43.0" fill="#f1f3f4" stroke="#c8ccd0" stroke-width="1"/>
+<text x="429.0" y="258.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="400" fill="#202124">—</text>
+<rect x="464.0" y="232.0" width="70.0" height="43.0" fill="#c5dfee" stroke="#c8ccd0" stroke-width="1"/>
+<text x="499.0" y="258.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">52</text>
+<text x="104.0" y="301.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12" fill="#303134">DF Strong LP</text>
+<rect x="114.0" y="275.0" width="70.0" height="43.0" fill="#cfe4f0" stroke="#c8ccd0" stroke-width="1"/>
+<text x="149.0" y="301.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">27</text>
+<rect x="184.0" y="275.0" width="70.0" height="43.0" fill="#b9d8ea" stroke="#c8ccd0" stroke-width="1"/>
+<text x="219.0" y="301.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">85</text>
+<rect x="254.0" y="275.0" width="70.0" height="43.0" fill="#b9d8ea" stroke="#c8ccd0" stroke-width="1"/>
+<text x="289.0" y="301.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">85</text>
+<rect x="324.0" y="275.0" width="70.0" height="43.0" fill="#d6e8f3" stroke="#c8ccd0" stroke-width="1"/>
+<text x="359.0" y="301.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">7</text>
+<rect x="394.0" y="275.0" width="70.0" height="43.0" fill="#cee4f0" stroke="#c8ccd0" stroke-width="1"/>
+<text x="429.0" y="301.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">28</text>
+<rect x="464.0" y="275.0" width="70.0" height="43.0" fill="#f1f3f4" stroke="#c8ccd0" stroke-width="1"/>
+<text x="499.0" y="301.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="400" fill="#202124">—</text>
+<text x="585.0" y="22.0" font-family="Times New Roman, Times, serif" font-size="20" font-weight="700" fill="#202124">Lower bound</text>
+<text x="714.0" y="44.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="11" fill="#303134">BF No LP</text>
+<text x="784.0" y="44.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="11" fill="#303134">BF Weak LP</text>
+<text x="854.0" y="44.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="11" fill="#303134">BF Strong LP</text>
+<text x="924.0" y="44.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="11" fill="#303134">DF No LP</text>
+<text x="994.0" y="44.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="11" fill="#303134">DF Weak LP</text>
+<text x="1064.0" y="44.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="11" fill="#303134">DF Strong LP</text>
+<text x="669.0" y="86.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12" fill="#303134">BF No LP</text>
+<rect x="679.0" y="60.0" width="70.0" height="43.0" fill="#f1f3f4" stroke="#c8ccd0" stroke-width="1"/>
+<text x="714.0" y="86.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="400" fill="#202124">—</text>
+<rect x="749.0" y="60.0" width="70.0" height="43.0" fill="#b4d6e8" stroke="#c8ccd0" stroke-width="1"/>
+<text x="784.0" y="86.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">98</text>
+<rect x="819.0" y="60.0" width="70.0" height="43.0" fill="#b2d4e8" stroke="#c8ccd0" stroke-width="1"/>
+<text x="854.0" y="86.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">104</text>
+<rect x="889.0" y="60.0" width="70.0" height="43.0" fill="#cae2ef" stroke="#c8ccd0" stroke-width="1"/>
+<text x="924.0" y="86.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">39</text>
+<rect x="959.0" y="60.0" width="70.0" height="43.0" fill="#b7d7e9" stroke="#c8ccd0" stroke-width="1"/>
+<text x="994.0" y="86.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">90</text>
+<rect x="1029.0" y="60.0" width="70.0" height="43.0" fill="#b1d4e8" stroke="#c8ccd0" stroke-width="1"/>
+<text x="1064.0" y="86.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">106</text>
+<text x="669.0" y="129.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12" fill="#303134">BF Weak LP</text>
+<rect x="679.0" y="103.0" width="70.0" height="43.0" fill="#ffffff" stroke="#c8ccd0" stroke-width="1"/>
+<text x="714.0" y="129.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">0</text>
+<rect x="749.0" y="103.0" width="70.0" height="43.0" fill="#f1f3f4" stroke="#c8ccd0" stroke-width="1"/>
+<text x="784.0" y="129.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="400" fill="#202124">—</text>
+<rect x="819.0" y="103.0" width="70.0" height="43.0" fill="#bedbeb" stroke="#c8ccd0" stroke-width="1"/>
+<text x="854.0" y="129.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">71</text>
+<rect x="889.0" y="103.0" width="70.0" height="43.0" fill="#cae2ef" stroke="#c8ccd0" stroke-width="1"/>
+<text x="924.0" y="129.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">39</text>
+<rect x="959.0" y="103.0" width="70.0" height="43.0" fill="#b8d8ea" stroke="#c8ccd0" stroke-width="1"/>
+<text x="994.0" y="129.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">88</text>
+<rect x="1029.0" y="103.0" width="70.0" height="43.0" fill="#b3d5e8" stroke="#c8ccd0" stroke-width="1"/>
+<text x="1064.0" y="129.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">101</text>
+<text x="669.0" y="172.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12" fill="#303134">BF Strong LP</text>
+<rect x="679.0" y="146.0" width="70.0" height="43.0" fill="#d8e9f3" stroke="#c8ccd0" stroke-width="1"/>
+<text x="714.0" y="172.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">2</text>
+<rect x="749.0" y="146.0" width="70.0" height="43.0" fill="#d4e7f2" stroke="#c8ccd0" stroke-width="1"/>
+<text x="784.0" y="172.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">12</text>
+<rect x="819.0" y="146.0" width="70.0" height="43.0" fill="#f1f3f4" stroke="#c8ccd0" stroke-width="1"/>
+<text x="854.0" y="172.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="400" fill="#202124">—</text>
+<rect x="889.0" y="146.0" width="70.0" height="43.0" fill="#cae2ef" stroke="#c8ccd0" stroke-width="1"/>
+<text x="924.0" y="172.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">39</text>
+<rect x="959.0" y="146.0" width="70.0" height="43.0" fill="#b8d8ea" stroke="#c8ccd0" stroke-width="1"/>
+<text x="994.0" y="172.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">88</text>
+<rect x="1029.0" y="146.0" width="70.0" height="43.0" fill="#b3d5e8" stroke="#c8ccd0" stroke-width="1"/>
+<text x="1064.0" y="172.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">102</text>
+<text x="669.0" y="215.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12" fill="#303134">DF No LP</text>
+<rect x="679.0" y="189.0" width="70.0" height="43.0" fill="#ffffff" stroke="#c8ccd0" stroke-width="1"/>
+<text x="714.0" y="215.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">0</text>
+<rect x="749.0" y="189.0" width="70.0" height="43.0" fill="#c2deed" stroke="#c8ccd0" stroke-width="1"/>
+<text x="784.0" y="215.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">60</text>
+<rect x="819.0" y="189.0" width="70.0" height="43.0" fill="#c0dcec" stroke="#c8ccd0" stroke-width="1"/>
+<text x="854.0" y="215.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">67</text>
+<rect x="889.0" y="189.0" width="70.0" height="43.0" fill="#f1f3f4" stroke="#c8ccd0" stroke-width="1"/>
+<text x="924.0" y="215.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="400" fill="#202124">—</text>
+<rect x="959.0" y="189.0" width="70.0" height="43.0" fill="#c5dfee" stroke="#c8ccd0" stroke-width="1"/>
+<text x="994.0" y="215.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">52</text>
+<rect x="1029.0" y="189.0" width="70.0" height="43.0" fill="#bfdcec" stroke="#c8ccd0" stroke-width="1"/>
+<text x="1064.0" y="215.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">68</text>
+<text x="669.0" y="258.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12" fill="#303134">DF Weak LP</text>
+<rect x="679.0" y="232.0" width="70.0" height="43.0" fill="#ffffff" stroke="#c8ccd0" stroke-width="1"/>
+<text x="714.0" y="258.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">0</text>
+<rect x="749.0" y="232.0" width="70.0" height="43.0" fill="#d5e8f2" stroke="#c8ccd0" stroke-width="1"/>
+<text x="784.0" y="258.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">11</text>
+<rect x="819.0" y="232.0" width="70.0" height="43.0" fill="#d2e6f1" stroke="#c8ccd0" stroke-width="1"/>
+<text x="854.0" y="258.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">19</text>
+<rect x="889.0" y="232.0" width="70.0" height="43.0" fill="#cfe5f1" stroke="#c8ccd0" stroke-width="1"/>
+<text x="924.0" y="258.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">26</text>
+<rect x="959.0" y="232.0" width="70.0" height="43.0" fill="#f1f3f4" stroke="#c8ccd0" stroke-width="1"/>
+<text x="994.0" y="258.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="400" fill="#202124">—</text>
+<rect x="1029.0" y="232.0" width="70.0" height="43.0" fill="#d2e6f1" stroke="#c8ccd0" stroke-width="1"/>
+<text x="1064.0" y="258.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">18</text>
+<text x="669.0" y="301.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12" fill="#303134">DF Strong LP</text>
+<rect x="679.0" y="275.0" width="70.0" height="43.0" fill="#ffffff" stroke="#c8ccd0" stroke-width="1"/>
+<text x="714.0" y="301.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">0</text>
+<rect x="749.0" y="275.0" width="70.0" height="43.0" fill="#d8e9f3" stroke="#c8ccd0" stroke-width="1"/>
+<text x="784.0" y="301.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">3</text>
+<rect x="819.0" y="275.0" width="70.0" height="43.0" fill="#d7e9f3" stroke="#c8ccd0" stroke-width="1"/>
+<text x="854.0" y="301.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">4</text>
+<rect x="889.0" y="275.0" width="70.0" height="43.0" fill="#cbe2ef" stroke="#c8ccd0" stroke-width="1"/>
+<text x="924.0" y="301.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">37</text>
+<rect x="959.0" y="275.0" width="70.0" height="43.0" fill="#bbd9ea" stroke="#c8ccd0" stroke-width="1"/>
+<text x="994.0" y="301.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="700" fill="#202124">80</text>
+<rect x="1029.0" y="275.0" width="70.0" height="43.0" fill="#f1f3f4" stroke="#c8ccd0" stroke-width="1"/>
+<text x="1064.0" y="301.0" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" font-weight="400" fill="#202124">—</text>
+</svg>
